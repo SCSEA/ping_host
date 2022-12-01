@@ -8,17 +8,24 @@ Ping is also used diagnostically to ensure that a host computer the user is tryi
 
 For example, to find the dot address, such as 205.245.172.72, for any given domain name, Windows users can go to the command prompt screen (start/run/cmd) and enter ping xxxxx.yyy, where xxxxx is the second-level domain name, like "whatis," and yyy is the top-level domain name, like "com."
 
+
 # Installation
 
-#update and upgrade packages
+
+# update and upgrade packages
+
 
 apt update && apt upgrade -y
 
-#install git
+
+# install git
+
 
 pkg install git
 
-#install python, python2, python3
+
+# install python, python2, python3
+
 
 pkg install python
 
@@ -26,13 +33,18 @@ pkg install python2
 
 pkg install python3
 
-#clone the repository
 
-https://github.com/Yousuf9963/ping_host.git
+# clone the repository
+
+
+git clone https://github.com/Yousuf9963/ping_host.git
+
 
 # go to directory
 
+
 cd ping_host
+
 
 # run
 
