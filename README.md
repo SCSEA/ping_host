@@ -12,20 +12,9 @@ For example, to find the dot address, such as 205.245.172.72, for any given doma
 # Installation
 
 
-# update and upgrade packages
-
-
 apt update && apt upgrade -y
 
-
-# install git
-
-
 pkg install git
-
-
-# install python, python2, python3
-
 
 pkg install python
 
@@ -33,19 +22,14 @@ pkg install python2
 
 pkg install python3
 
-
-# clone the repository
-
-
 git clone https://github.com/Yousuf9963/ping_host.git
-
-
-# go to directory
-
 
 cd ping_host
 
-
-# run
+chmod +x *
 
 python3 ping_host.py
+
+Donation:
+
+https://www.buymeacoffee.com/junioprogrammer
