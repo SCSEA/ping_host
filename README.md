@@ -22,14 +22,10 @@ pkg install python2
 
 pkg install python3
 
-git clone https://github.com/Yousuf9963/ping_host.git
+git clone https://github.com/SCSEA/ping_host.git
 
 cd ping_host
 
 chmod +x *
 
 python3 ping_host.py
-
-Donation:
-
-https://www.buymeacoffee.com/junioprogrammer
